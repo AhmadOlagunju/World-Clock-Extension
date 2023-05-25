@@ -1,0 +1,19 @@
+{
+	"manifest_version":3,
+	"name":"World Clock Extension",
+	"version": "1.0",
+	"description":"Clock Extension",
+	"action":{
+		"default_popup": "popUp.html",
+		"default_title": "World Clock Extension"
+	},
+	"icons": { 
+		"16": "./images/icons16.png",
+		"48": "./images/icons48.png",
+	   "128": "./images/icons128.png" 
+	},
+	"permissions":[
+		"tabs",
+		"storage"
+	]
+}
