@@ -1,0 +1,72 @@
+/*Popup Css file by Ahmad*/
+#body{
+    width: 400px;
+}
+.break{
+    display: none;
+}
+#edit{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(0, 0, 255);
+    bottom: 0em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 12pt;
+}
+#edit:hover{
+    cursor: pointer;
+}
+h1{
+    font-size: 15pt;
+    display: inline;
+}
+hr{
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    border: none;
+}
+#info{
+    display: none;
+    font-weight: normal;
+    font-size: 11pt;
+}
+#info2{
+    display: none;
+    font-weight: normal;
+    font-size: 9pt;
+}
+.margin{
+    display: none;
+}
+
+#searchB1, #searchB2, #searchB3{
+    display: none;
+    background-color: rgb(65, 97, 238);
+    border: none;
+    color: white;
+    padding: 3px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 9pt;
+}
+#searchB1:hover, #searchB2:hover, #searchB3:hover{
+    cursor: pointer;
+}
+#searchCity1, #searchCity2, #searchCity3{
+    display: none;
+}
+
+
+#timezone1, #timezone2, #timezone3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13pt;
+}
+
+#displayTime1, #displayTime2, #displayTime3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15pt;
+}
